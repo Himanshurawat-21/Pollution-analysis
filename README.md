@@ -27,8 +27,7 @@ This analysis answers several key questions about air quality in India:
 4.  **Analysis & Visualization:** Used `pandas` for data manipulation and aggregation, and `matplotlib`/`seaborn` to create clear visualizations that communicate the findings.
 
 ## Tools Used
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+* Python 🐍
+* Pandas 🐼
+* Matplotlib & Seaborn 📊
+* Jupyter Notebook 📓
