@@ -6,6 +6,11 @@ This project is an exploratory data analysis (EDA) of a large-scale air quality 
 ## 📂Dataset
 The data was sourced from Kaggle and includes daily and hourly readings for pollutants such as PM2.5, PM10, AQI, etc., from multiple monitoring stations across India spanning from 2015 to 2020.
 
+*Due to their size, only the smaller datasets (`city_day.csv`, `station_day.csv`, `stations.csv`) are included in this repository.*
+The data was sourced from Kaggle. The complete dataset can be downloaded here: [Air Quality Data in India](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
+
+*Due to their size, only the smaller datasets (`city_day.csv`, `station_day.csv`, `stations.csv`) are included in this repository.*
+
 ## ❓Key Questions & Insights
 
 This analysis answers several key questions about air quality in India:
