@@ -26,7 +26,7 @@ This analysis answers several key questions about air quality in India:
 
 ## ⚙️Methodology
 
-1.  **Data Cleaning:** Missing time-series data was handled using a **forward-fill (`ffill`)** and **backward-fill (`bfill`)** strategy to ensure data integrity without skewing the results.
+1.  **Data Cleaning:** Missing time-series data was handled using a **interpolate(method='time')** and **backward-fill (`bfill`)** strategy to ensure data integrity without skewing the results.
 2.  **Data Preparation:** Merged multiple data sources (`city_day`, `station_day`, `stations`) to create comprehensive datasets for analysis.
 3.  **Feature Engineering:** Created `Season` and `Month` columns from datetime objects to enable temporal analysis.
 4.  **Analysis & Visualization:** Used `pandas` for data manipulation and aggregation, and `matplotlib`/`seaborn` to create clear visualizations that communicate the findings.
